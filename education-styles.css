@@ -16,3 +16,56 @@ nav > a {
     border: transparent;
     border-radius: 20px;
 }
+
+nav > a:hover {background-color: white;}
+
+body{background-color: #FFDFA1;}
+h1{font-size: 45;}
+h2{font-size: 30;}
+p{
+    font-size: 27;
+    font-family: 'PT Serif', serif;
+}
+ul{
+    font-size: 27;
+    font-family: 'PT Serif', serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Open Sans', sans-serif;
+}
+.background{
+    position: relative;
+    height: 75%;
+    border: black solid 5px;
+    display: flex;
+    flex-direction: row;
+}
+#background-p{
+    max-width: auto;
+    height: 100%;
+}
+#sps{
+    padding: 10px;
+    width: auto;
+    height: 226px;
+}
+#scouts{
+    padding:10px;
+    width:210;
+    height: auto;
+    margin-bottom: auto;
+    border: transparent 5px;
+    border-radius: 50px;
+}
+.achievements .academic{
+    display: flex;
+    flex-flow: row;
+}
+#academic{
+    padding: 25px;
+    margin-left: auto;
+}
+.achievements .scouts{
+    display: flex;
+    flex-direction: row;
+}
