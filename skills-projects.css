@@ -1,0 +1,56 @@
+h1, h2, h3, h4{font-family: 'Open Sans', sans-serif; font-size: 30;}
+p, ul{font-family: 'PT Serif', serif;}
+nav{
+    font-family: 'Open Sans', sans-serif;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    z-index: 4;
+}
+nav > a {
+    background-color: #FFDFA1;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 14px 16px;
+    border: transparent;
+    border-radius: 20px;
+}
+nav > a:hover {background-color: white;}
+.active{background-color: azure;}
+body{background-color: #FFDFA1;}
+.skills-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+ul {font-size: 20;}
+
+.skills > ul{
+    padding: 15;
+    line-height: 1.6;
+}
+.proficiency > ul {
+    list-style-type: none;
+    line-height: 1.6;
+    margin: 0;
+    padding: 15;
+}
+.projects{
+    border-top: skyblue solid 20px;
+    background-color: #FFDFA1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.projects > h1{padding: 10;}
+img{
+    float: left;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}

@@ -28,6 +28,7 @@ nav > a {
     border-radius: 20px;
 }
 nav > a:hover {background-color: white;}
+.active{background-color: azure;}
 #background {
     position: absolute;
     top:0px;
