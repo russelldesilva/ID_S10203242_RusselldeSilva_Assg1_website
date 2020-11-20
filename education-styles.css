@@ -1,3 +1,115 @@
+@media (max-width: 600px){
+    nav > a {
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+    h1{font-size: 30;}
+    h2{font-size: 20;}
+    p{font-size: 15;}
+    ul{font-size: 15;}
+    #sps {
+        position: absolute;
+        left: 10;
+        bottom: 10;
+        max-width: 40%;
+        height: auto;
+    }
+    #scouts{
+        position: absolute;
+        right: 10;
+        bottom: 10;
+        max-width:40%;
+        height: auto;
+        border: transparent 5px;
+        border-radius: 50px;
+    }
+}
+@media (min-width: 600px){
+    nav > a {
+        font-size: 15px;
+        padding: 12px 14px;
+    }
+    h1{font-size: 30;}
+    h2{font-size: 20;}
+    p{font-size: 15;}
+    ul{font-size: 15;}
+    .background .text{
+        margin-left: auto;
+        max-width: 50%;
+    }
+    #sps{
+        padding: 50;
+        max-width: 50%;
+        height: auto;
+        margin-bottom: auto;
+    }
+    #scouts{
+        padding:10px;
+        max-width:50%;
+        height: auto;
+        margin-top: auto;
+        margin-left: auto;
+        border: transparent 5px;
+        border-radius: 50px;
+    }
+}
+@media (min-width: 768px){
+    nav > a {
+        font-size: 15px;
+        padding: 14px 16px;
+    }
+    h1{font-size: 35;}
+    h2{font-size: 20;}
+    p{font-size: 17;}
+    ul{font-size: 17;}
+    .background .text{
+        margin-left: auto;
+        max-width: 50%;
+    }
+    #sps{
+        max-width: 50%;
+        height: auto;
+        margin-bottom: auto;
+    }
+    #scouts{
+        padding:10px;
+        max-width:30%;
+        height: auto;
+        margin-top: auto;
+        margin-left: auto;
+        border: transparent 5px;
+        border-radius: 50px;
+    }
+}
+@media (min-width: 900px){
+    nav > a {
+        font-size: 20px;
+        padding: 14px 16px;
+    }
+    h1{font-size: 45;}
+    h2{font-size: 30;}
+    p{font-size: 27;}
+    ul{font-size: 27;}
+    .background .text{
+    margin-left: auto;
+    max-width: 50%;
+    }
+    #sps{
+        max-width: 50%;
+        height: auto;
+        margin-bottom: auto;
+    }
+    #scouts{
+        padding:10px;
+        max-width:30%;
+        height: auto;
+        margin-top: auto;
+        margin-left: auto;
+        border: transparent 5px;
+        border-radius: 50px;
+    }
+
+}
 nav{
     font-family: 'Open Sans', sans-serif;
     background-color: skyblue;
@@ -10,9 +122,7 @@ nav{
 nav > a {
     background-color: #FFDFA1;
     text-align: center;
-    font-size: 20px;
     text-decoration: none;
-    padding: 14px 16px;
     border: transparent;
     border-radius: 20px;
 }
@@ -22,29 +132,20 @@ nav > a:hover {background-color: white;}
 .active {background-color: azure;}
 
 body{background-color: #FFDFA1;}
-h1{font-size: 45;}
-h2{font-size: 30;}
-p{
-    font-size: 27;
-    font-family: 'PT Serif', serif;
-}
-ul{
-    font-size: 27;
-    font-family: 'PT Serif', serif;
-}
-h1, h2, h3, h4{
-    font-family: 'Open Sans', sans-serif;
-}
+
+p{font-family: 'PT Serif', serif;}
+ul{font-family: 'PT Serif', serif;}
+h1, h2, h3, h4{font-family: 'Open Sans', sans-serif;}
+
 .background{
     position: relative;
     height: 75%;
-    border: black solid 5px;
+    border: white solid 5px;
     display: flex;
     flex-direction: row;
+    padding: 10;
 }
 .background .text{
-    margin-left: auto;
-    max-width: 50%;
     display: flex;
     flex-flow: row wrap;
 }
@@ -52,30 +153,23 @@ h1, h2, h3, h4{
     max-width: auto;
     height: 100%;
 }
-#sps{
-    padding: 50px;
-    max-width: 50%;
-    height: auto;
-    margin-bottom: auto;
-}
-#scouts{
-    padding:10px;
-    max-width:30%;
-    height: auto;
-    margin-top: auto;
-    margin-left: auto;
-    border: transparent 5px;
-    border-radius: 50px;
-}
 .achievements .academic{
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
 }
 #academic{
     padding: 25px;
     margin-left: auto;
+    max-width: 50%;
+    height: auto;
 }
 .achievements .scouts{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+#kayaking{
+    max-width: 50%;
+    height: auto;
 }

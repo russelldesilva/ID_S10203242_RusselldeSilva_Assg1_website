@@ -29,16 +29,22 @@ Adobe XD for wireframe design.
 VS Code for HTML/CSS coding.
 
 Testing
-null
+When testing the website on different screen sizes, I discovered that some elements (h1-h6) resize automatically when shrinking the screen. So much so that they became unreadable. To counter this, I had to create one more media query than I intende (@media (max-width: 600px)). This ensured that no how small the screen, The font size would remain just right. All possible screen sizes have now been accounted for due to the max width function handling all screen sizes below 600px width and min width function handling all screen sizes above 900px.
+
+Secondly, "scouts.jpg" on education.html does not resize according to its container <header> due to the fact other elements on the page do not resize as well. This results in a lack of space for the image and causing it to be pushed out of the box.
+
+My project looks the same on all major browsers. (Edge, Chrome, Firefox)
+However, on Internet Explorer, the nav bar and images are misalingned. This is because it does not support flexboxes.
 
 Credits
 Content
 The text for About Me section on index.html was copied from the my personal website (made for FP1 assignment) "https://russelldesilva.wordpress.com/".
-The text for education.html was copied from my FP1 assignment
+The text for education.html was copied from my FP1 assignment "Personal Branding" last semester.
 Media
 LinkedIn picture on index.html: "https://www.flaticon.com/free-icon/linkedin_174857"
-St Patrick's School logo: Originally from "stpatricks.moe.edu.sg", but image no longer there
+St Patrick's School logo: Originally from "https://stpatricks.moe.edu.sg", but image no longer there.
+Background image on index.html "https://images.unsplash.com/photo-1516577571543-34730998c489?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60".
 All other images were from my personal photo gallery.
 
 Acknowledgements
-I received inspiration for this project from FP1 personal branding assignment
+I received inspiration for this project from FP1 personal branding assignment and with a lot of help from w3schools.com!
