@@ -61,6 +61,7 @@ p{font-family: 'PT Serif', serif;}
 nav{
     font-family: 'Open Sans', sans-serif;
     background-color: skyblue;
+    box-shadow: grey 0px 4px 5px;
     display: flex;
     justify-content: space-evenly;
     position: sticky;

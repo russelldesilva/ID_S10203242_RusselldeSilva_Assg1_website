@@ -43,6 +43,7 @@ p, ul{font-family: 'PT Serif', serif;}
 nav{
     font-family: 'Open Sans', sans-serif;
     background-color: skyblue;
+    box-shadow: grey 0px 4px 5px;
     display: flex;
     justify-content: space-evenly;
     position: sticky;
@@ -82,7 +83,11 @@ body{background-color: #FFDFA1;}
     flex-direction: column;
     justify-content: space-between;
 }
-.projects > h1{padding: 10;}
+.projects > h1{
+    padding: 10;
+    text-align: center;
+    border-bottom: white solid 5px;
+}
 img{
     float: left;
     max-width: 100%;

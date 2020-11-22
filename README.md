@@ -20,8 +20,8 @@ Existing Features
 Feature 1 - Skill Proficiency
 This consists of a simple <ul> of all the hard skills I have learnt so far (Python, C#, HTML and CSS) and and a correspoding <ul> adjacent to it with my proficiency levels (on a scale of 1 to 10, 10 being extremely proficient). This is a simple and quick way for recruiters to see how skilled I am at certain technologies which may be useful for the job.
 
-Features Left to Implement
-Will think of some
+Feature 2 - Sticky Nav bar
+Navigation bar permanently anchored at top of page (using position: sticky CSS rule) for easier navigation. Users would not have to scroll up to the top of the page every time they want to navigate.
 
 Technologies Used
 
