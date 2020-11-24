@@ -1,7 +1,12 @@
 @media (max-width: 600px){
+    nav{
+        flex-flow: column wrap;
+        align-content: center;
+    }
     nav > a {
         font-size: 15px;
         padding: 5px 5px;
+        width: 50%;
     }
     p{font-size: 20;}
 }
