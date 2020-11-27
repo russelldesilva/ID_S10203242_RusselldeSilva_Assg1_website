@@ -31,7 +31,11 @@ VS Code for HTML/CSS coding.
 Testing
 When testing the website on different screen sizes, I discovered that some elements (h1-h6) resize automatically when shrinking the screen. So much so that they became unreadable. To counter this, I had to create one more media query than I intende (@media (max-width: 600px)). This ensured that no how small the screen, The font size would remain just right. All possible screen sizes have now been accounted for due to the max width function handling all screen sizes below 600px width and min width function handling all screen sizes above 900px.
 
-Secondly, "scouts.jpg" on education.html does not resize according to its container <header> due to the fact other elements on the page do not resize as well. This results in a lack of space for the image and causing it to be pushed out of the box.
+Secondly, "scouts.jpg" on education.html does not resize according to its container <header> due to the fact other elements on the page do not resize as well. This results in a lack of space for the image and causing it to be pushed out of the box. I solved this by making it stick to the bottom of the container when the screen shrunk.
+
+The background image on index.html could not re-size properly when embbeded in html. Hence, I used the css property background-image{} for cleaner and smoother code.
+
+When adding normalize.css, some css properties on my elements did not work. I fixed this by commenting out the various css commands from the file.
 
 My project looks the same on all major browsers. (Edge, Chrome, Firefox)
 However, on Internet Explorer, the nav bar and images are misalingned. This is because it does not support flexboxes.
@@ -48,3 +52,4 @@ All other images were from my personal photo gallery.
 
 Acknowledgements
 I received inspiration for this project from FP1 personal branding assignment and with a lot of help from w3schools.com!
+Special thanks to my lecturer Mr Peter Hung for teaching us for 4 hours straight!
